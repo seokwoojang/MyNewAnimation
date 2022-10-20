@@ -172,6 +172,7 @@ void CMFCW0601AnimationView::DrawBitmap(CDC* pDC)
 
 	CBitmap* oldAni = aniDC.SelectObject(&ani);
 
+
 	pDC->BitBlt(300, 300,
 		62, 64,
 		&aniDC,
